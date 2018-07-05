@@ -13,7 +13,7 @@
 </head>
 <body class="adminbody">
 	<h1>アカウント管理</h1>
-	<a href="masterMenu.jsp">メニュー</a>
+	<a href="masterMenu">メニュー</a>
 	<div class="article">
 		<div class="link">
 			<table>
@@ -26,26 +26,10 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td>003</td>
-						<td>ひりひり</td>
+						<td>${users.user_id}</td>
+						<td>${users.name}</td>
 						<td>
-							<form action="deleteUserConfirm.html" method="post"><input type="submit"value="削除">
-							</form>
-						</td>
-					</tr>
-					<tr>
-						<td>002</td>
-						<td>ほりほり</td>
-						<td>
-							<form action="deleteUserConfirm.html" method="post"><input type="submit"value="削除">
-							</form>
-						</td>
-					</tr>
-					<tr>
-						<td>001</td>
-						<td>はりはり</td>
-						<td>
-							<form action="deleteUserConfirm.html" method="post"><input type="submit"value="削除">
+							<form action="deleteUserConfirm" method="post"><input type="submit"value="削除">
 							</form>
 						</td>
 					</tr>

@@ -15,13 +15,8 @@ import org.springframework.transaction.annotation.Transactional;
 import jp.co.axiz.entity.Users;
 
 
-
 @Repository
 public class UsersDao  {
-
-//	public final String SQL_SEARCH_ALL = "SELECT user_id, user_name, telephone, password FROM user_info ORDER BY user_id";
-//	public final String SQL_SEARCH_ID = "SELECT MAX(user_id) FROM user_info";
-//	public final String SQL_SEARCH_WHERE_ID = "SELECT user_id, user_name, telephone, password FROM user_info WHERE user_id = ?";
 
 	@Autowired
     private JdbcTemplate jT;
@@ -30,10 +25,10 @@ public class UsersDao  {
 
 
 	@Transactional	//ユーザ情報を登録するメソッド(一般ユーザとして登録)
-	public boolean register(String name,String id,String pass) {
-		SqlParameterSource param = new MapSqlParameterSource().addValue("name",name).addValue("id", id).addValue("pass",pass);
+	public boolean register(String user_id,String password,String name) {
+		SqlParameterSource param = new MapSqlParameterSource().addValue("name",name).addValue("user_id", user_id).addValue("password",password);
 		try {
-			nPJT.update("INSERT INTO users (id,pass,name,bestScore,role) VALUES(:id,:pass,:name,0,2)",param);
+			nPJT.update("INSERT INTO users (user_id,password,name,role) VALUES(:user_id,:password,:name,2)",param);
 			return true;
 		}catch(Exception e) {
 			return false;
@@ -47,14 +42,15 @@ public class UsersDao  {
 
             try {
                 return nPJT.queryForObject(
-                        "SELECT id,pass,name,bestScore,role FROM users WHERE id = :id AND pass = :pass",
+                        "SELECT id,pass,name,role FROM users WHERE id = :id AND pass = :pass",
                         param,
                         new BeanPropertyRowMapper<Users>(Users.class));
             } catch (EmptyResultDataAccessException e) {
                 return null;
             }
     }
-//
+
+//deleteUserで使用
 	@Transactional
     public List<Users> findAll () {		//一般ユーザを全件取得
 		return jT.query("SELECT*FROM users WHERE role = 2",
@@ -88,33 +84,6 @@ public class UsersDao  {
 	}
 
 
-	@Transactional
-	public void updateScore(String id,int score) {
-		String sco = String.valueOf(score);
-		SqlParameterSource param = new MapSqlParameterSource().addValue("id",id).addValue("score", sco);
-		try {
-			nPJT.update(
-					"UPDATE users SET bestScore= :score,date=(SELECT CURRENT_DATE) WHERE id= :id",
-					param);
-		}catch(EmptyResultDataAccessException e) {
-		}
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
-//	//ユーザーの検索
-//	@Transactional
 //	public List<UserInfo> search (String id, String name, String tel) {
 //		String SQL_SELECT_INFO = "SELECT user_id, user_name, telephone FROM user_info";
 //

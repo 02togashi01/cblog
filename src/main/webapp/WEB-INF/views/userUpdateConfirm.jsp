@@ -32,13 +32,13 @@
 	 <fieldset class="article">
 	    <h3>変更前</h3>
 	    <div>
-	      <span class="adminspan">ID</span><input type="text" class="admintext" value="111" disabled>
+	      <span class="adminspan">ID</span><input type="text" class="admintext" value="${users.user_id}" disabled>
 	    </div>
 	    <div>
-	      <span class="adminspan">name</span><input type="text" class="admintext" value="alice" disabled>
+	      <span class="adminspan">name</span><input type="text" class="admintext" value="${users.name}" disabled>
 	    </div>
 	    <div>
-	      <span class="adminspan">PASS</span><input type="password" class="admintext" value="alicesos" disabled>
+	      <span class="adminspan">PASS</span><input type="password" class="admintext" value="${users.pass}" disabled>
 	    </div>
 	  </fieldset>
 
@@ -47,10 +47,10 @@
 	    <p>PASSを再入力してください</p>
 
 	    <div>
-	      <span class="adminspan">ID</span><input type="text" class="admintext" name="newName" value="111" readonly>
+	      <span class="adminspan">ID</span><input type="text" class="admintext" name="newName" value="${newUser.userId}" readonly>
 	    </div>
 	    <div>
-	       <span class="adminspan">name</span><input type="text" class="admintext" name="newTel" value="alice" readonly>
+	       <span class="adminspan">name</span><input type="text" class="admintext" name="newTel" value="${newUser.userName}" readonly>
 	    </div>
 	    <div>
 	       <span class="adminspan">PASS</span><input type="password" class="admintext" name="rePass">
@@ -59,7 +59,7 @@
 
 	  <div class="col-clear">
 	    <input type="submit" name="button" class="adminbutton" value="更新">
-	    <input type="submit" name="button" class="adminbutton" value="戻る" onclick="location.href='userUpdateInput.html'; return false;">
+	    <input type="submit" name="button" class="adminbutton" value="戻る" onclick="location.href='userUpdateInput'; return false;">
 	  </div>
 
 	</form>

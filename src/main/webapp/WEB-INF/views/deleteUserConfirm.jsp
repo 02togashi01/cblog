@@ -18,20 +18,20 @@
 
 <p>これでよろしいですか？</p>
 
-<form action="deleteUserResult.html" method="post">
+<form action="deleteUserResult" method="post">
      <div>
-<span class="adminspan">ID：</span><input class="admintext" type="text" value="101" readonly>
+<span class="adminspan">ID：</span><input class="admintext" type="text" value="${users.user_id} "readonly>
     </div>
     <div>
-<span class="adminspan">名前：</span><input class="admintext" type="text" value="ほりほり" readonly>
+<span class="adminspan">名前：</span><input class="admintext" type="text" value="${users.name}" readonly>
     </div>
   <div class="col-clear">
     <button class="adminbutton" type="submit" name="button" value="確認">確認</button>
-    <button class="adminbutton" type="submit" name="button" value="戻る" onclick="location.href='deleteUser.html'; return false;">戻る</button>
+    <button class="adminbutton" type="submit" name="button" value="戻る" onclick="location.href='deleteUser'; return false;">戻る</button>
   </div>
 </form>
 <divclass="link">
-  <a href="masterMenu.html">メニューに戻る</a>
+  <a href="masterMenu">メニューに戻る</a>
 </div>
   </fieldset>
 </body>

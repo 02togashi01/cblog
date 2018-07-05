@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-<title>メニュー</title>
+    <title>TOP画面</title>
 
     <!-- Bootstrap core CSS -->
     <link href="clean/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,63 +21,47 @@
     <!-- Custom styles for this template -->
     <link href="clean/css/clean-blog.min.css" rel="stylesheet">
 
+
+
 </head>
 <body>
+	<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="articleList_guest">記事一覧</a></li>
+<li class="nav-item">
+<a class="nav-link" href="login">ログイン</a> </li>
+<li class="nav-item">
+<a class="nav-link" href="registerInput">新規登録</a></li>
 
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-        <!-- Page Header -->
-    <header class="masthead" style="background-image: url('clean/img/home-bg.jpg')">
+       <!-- Page Header -->
+    <header class="masthead" style="background-image: url('clean/img/about-bg.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="site-heading">
-              <h1>ユーザーメニュー</h1>
-              <span class="subheading">C-blog </span>
+            <div class="page-heading">
+              <h1>C-blog</h1>
+              <span class="subheading">This is what I do.</span>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-preview">
-            <a href="articleList">
-              <h2 class="post-title">
-                記事一覧
-              </h2>
-            </a>
-            <p class="post-meta">記事の閲覧ができます。</p>
-          </div>
-          <hr>
-          <div class="post-preview">
-            <a href="userUpdateInput">
-              <h2 class="post-title">
-                アカウント編集
-              </h2>
-            </a>
-            <p class="post-meta">アカウント情報を編集します。</p>
-          </div>
-          <hr>
-          <div class="post-preview">
-            <a href="userDelete">
-              <h2 class="post-title">
-                退会
-              </h2>
-            </a>
-            <p class="post-meta">退会するときはこちら。</p>
-              </div>
 
-          <!-- Pager -->
-          <div class="clearfix">
-            <a class="btn btn-primary float-right" href="logout">ログアウト</a>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <hr>
 
@@ -118,12 +102,12 @@
       </div>
     </footer>
 
+
     <!-- Bootstrap core JavaScript -->
     <script src="clean/vendor/jquery/jquery.min.js"></script>
     <script src="clean/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="clean/js/clean-blog.min.js"></script>
-
 </body>
 </html>

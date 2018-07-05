@@ -4,133 +4,38 @@ public class Form {
 
 
 	private String name;
-	private String id;
+	private String user_id;
 	private String pass;
-	private String rePass;
+
+	private String reRegisterpass;
+
 	private String newName;
-	private String newId;
+	private String newUserId;
 	private String newPass;
-	private Integer no;
-	private String content;
-	private String answear;
-	private String a1;
-	private String a2;
-	private String a3;
-	private String a4;
-	private String a5;
-	private String a6;
-	private String a7;
-	private String a8;
 
-	private String a9;
-	private String a10;
-	private String a11;
-	private String a12;
-	private String a13;
-	private Integer time;
+	private String registerid;
+	private String registername;
+	private String registerpass;
 
 
-	public Integer getTime() {
-		return time;
+
+	public String getRegisterid() {
+		return registerid;
 	}
-	public void setTime(Integer time) {
-		this.time = time;
+	public void setRegisterid(String registerid) {
+		this.registerid = registerid;
 	}
-	public String getA1() {
-		return a1;
+	public String getRegistername() {
+		return registername;
 	}
-	public void setA1(String a1) {
-		this.a1 = a1;
+	public void setRegistername(String registername) {
+		this.registername = registername;
 	}
-	public String getA2() {
-		return a2;
+	public String getRegisterpass() {
+		return registerpass;
 	}
-	public void setA2(String a2) {
-		this.a2 = a2;
-	}
-	public String getA3() {
-		return a3;
-	}
-	public void setA3(String a3) {
-		this.a3 = a3;
-	}
-	public String getA4() {
-		return a4;
-	}
-	public void setA4(String a4) {
-		this.a4 = a4;
-	}
-	public String getA5() {
-		return a5;
-	}
-	public void setA5(String a5) {
-		this.a5 = a5;
-	}
-	public String getA6() {
-		return a6;
-	}
-	public void setA6(String a6) {
-		this.a6 = a6;
-	}
-	public String getA7() {
-		return a7;
-	}
-	public void setA7(String a7) {
-		this.a7 = a7;
-	}
-	public String getA8() {
-		return a8;
-	}
-	public void setA8(String a8) {
-		this.a8 = a8;
-	}
-	public String getA9() {
-		return a9;
-	}
-	public void setA9(String a9) {
-		this.a9 = a9;
-	}
-	public String getA10() {
-		return a10;
-	}
-	public void setA10(String a10) {
-		this.a10 = a10;
-	}
-	public String getA11() {
-		return a11;
-	}
-	public void setA11(String a11) {
-		this.a11 = a11;
-	}
-	public String getA12() {
-		return a12;
-	}
-	public void setA12(String a12) {
-		this.a12 = a12;
-	}
-	public String getA13() {
-		return a13;
-	}
-	public void setA13(String a13) {
-		this.a13 = a13;
-	}
-	public Integer getNo() {
-		return no;
-	}
-	public void setNo(Integer no) {
-		this.no = no;
-	}
-	public String getContent() {
-		return content;
-	}
-	public void setContent(String content) {
-		this.content = content;
-	}
-	public String getAnswear() {
-		return answear;
-	}
-	public void setAnswear(String answear) {
-		this.answear = answear;
+	public void setRegisterpass(String registerpass) {
+		this.registerpass = registerpass;
 	}
 	public String getNewName() {
 		return newName;
@@ -139,10 +44,10 @@ public class Form {
 		this.newName = newName;
 	}
 	public String getNewId() {
-		return newId;
+		return newUserId;
 	}
 	public void setNewId(String newId) {
-		this.newId = newId;
+		this.newUserId = newId;
 	}
 	public String getNewPass() {
 		return newPass;
@@ -150,11 +55,11 @@ public class Form {
 	public void setNewPass(String newPass) {
 		this.newPass = newPass;
 	}
-	public String getRePass() {
-		return rePass;
+	public String getreRegisterpass() {
+		return reRegisterpass;
 	}
-	public void setRePass(String rePass) {
-		this.rePass = rePass;
+	public void setreRegisterpass(String reRegisterpass) {
+		this.reRegisterpass = reRegisterpass;
 	}
 	public String getName() {
 		return name;
@@ -163,10 +68,10 @@ public class Form {
 		this.name = name;
 	}
 	public String getId() {
-		return id;
+		return user_id;
 	}
 	public void setId(String id) {
-		this.id = id;
+		this.user_id = id;
 	}
 	public String getPass() {
 		return pass;

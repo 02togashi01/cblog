@@ -2,30 +2,23 @@ package jp.co.axiz.entity;
 
 public class Users {
 
-	private String id;
+	private String user_id;
 	private String pass;
 	private String name;
-	private String bestScore;
-	private String date;
 	private Integer role;		//1なら管理者、2なら一般ユーザ
 
 
 
-	public Users() {
-
-	}
-
-	public Users(String id,String pass,String name) {
-		this.id=id;
+	public Users(String user_id,String pass,String name) {
+		this.user_id = user_id;
 		this.pass=pass;
 		this.name=name;
 	}
-
-	public String getId() {
-		return id;
+	public String getUser_id() {
+		return user_id;
 	}
-	public void setId(String id) {
-		this.id = id;
+	public void setUser_id(String user_id) {
+		this.user_id = user_id;
 	}
 	public String getPass() {
 		return pass;
@@ -39,28 +32,11 @@ public class Users {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getBestScore() {
-		return bestScore;
-	}
-	public void setBestScore(String bestScore) {
-		this.bestScore = bestScore;
-	}
-	public String getDate() {
-		return date;
-	}
-	public void setDate(String date) {
-		this.date = date;
-	}
 	public Integer getRole() {
 		return role;
 	}
 	public void setRole(Integer role) {
 		this.role = role;
 	}
-
-
-
-
-
 
 }

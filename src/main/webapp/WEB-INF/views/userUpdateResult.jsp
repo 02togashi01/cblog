@@ -17,7 +17,7 @@
 <div class="article">
 <h2>正常に更新されました</h2>
 <div class="link" style="text-align: center;">
-<a href="menu.html">メニューに戻る</a>
+<a href="menu">メニューに戻る</a>
 </div>
 </div>
 </body>
