@@ -1,0 +1,316 @@
+.userbody {
+ background-color: #67EEB3;
+  text-align: center;
+
+}
+
+
+table,td,th{
+border: solid 3px black ;
+
+}
+
+th.button{
+width: 400px;
+height: 30px;
+}
+
+td.button{
+width: 400px;
+height: 30px;
+}
+table{
+border-collapse: collapse;
+margin: auto;
+table-layout: fixed;
+}
+
+th,td{
+padding:10px 20px 10px 20px
+}
+
+button.html{
+width: auto;
+}
+.userspan{
+display: inline-block;
+    width: 80px;
+
+}
+
+.adminspan2{
+display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+
+.userspan2{
+display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+
+.userspan3{
+display: inline-block;
+    width: 160px;
+    text-align: right;
+}
+
+
+#j-calendar2{
+background-color:white
+
+}
+
+
+th.calendar.day-head{
+ background-color: #67EEB3;
+
+}
+.top{
+
+}
+
+fieldset{
+margin: auto;
+margin-bottom: 20px;
+width: 200px;
+border-radius: 10px;
+text-align: center;
+background-color:white
+
+}
+
+.colors{
+width: 200px;
+}
+
+fieldset.color-info{
+    float: left;
+width: 100%;
+
+}
+
+
+fieldset.htmltag{
+width: auto;
+}
+.red_square{
+   width: 40px;
+   height: 40px;
+   background: red;
+   margin-top;10px;
+}
+
+button.red_square {
+    
+    height: 40px;
+ width: 40px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #ff0000;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+}
+
+button.blue_square {
+    
+    height: 40px;
+ width: 40px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #4682B4;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+}
+
+button.green_square {
+    
+    height: 40px;
+ width: 40px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #7FFF00;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+}
+
+button.yellow_square {
+    
+    height: 40px;
+ width: 40px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #FFFF00;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+}
+
+button.orange_square {
+    
+    height: 40px;
+ width: 40px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #FF8C00;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+}
+
+button.purple_square {
+    
+    height: 40px;
+ width: 40px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #BA55D3;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+}
+input[type=radio], input[type=checkbox] {
+  display: none;
+}
+#aaa{
+width:500px;
+background-color: #fff;
+
+}
+
+ul,li {
+  margin: 110;
+  padding: 0;
+
+}
+ 
+ul {
+  list-style: none;
+  padding: 20px 40px;
+
+}
+ 
+ul.keep {
+  width: 500px;
+margin: auto;
+  border: 1px solid #CCC;
+  background: #fff;
+}
+ul.keep li {
+  float: left;
+  width: 150px;
+  margin: 0 10px 10px 0;
+}
+
+ul.keep li#red{
+
+  background: red;
+}
+
+ul.keep li#blue{
+  background: blue;
+}
+
+ul.keep li#green{
+  background: green;
+}
+
+ul.keep li#yellow{
+  background: yellow;
+}
+
+ul.keep li#orange{
+  background: orange;
+}
+
+ul.keep li#purple{
+  background: purple;
+}
+ ul.keep li#lightblue{
+  background: lightblue;
+}
+ul.keep input {
+  display: block;
+}
+ 
+ul.keep span {
+  display: block;
+  overflow: hidden; /* モダンブラウザ用 */
+  padding: 0 10px;
+  zoom: 1; /* IE6用 */
+}
+ 
+/* クリアフィックス */
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+    text-align: center;
+
+}
+ 
+.clearfix {
+  overflow: hidden;
+  zoom: 1;
+}
+
+td{
+}
+}
+th{
+background-color:white
+}
+td{
+background-color:white
+}
+
+.schedulebutton {
+margin-top : 15px;
+margin-bottom : 15px;
+ display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+}
+
+.schedulebutton:hover {
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+
+}
+
+fieldset.article {
+margin-bottom: 400px;
+}
+
+footer.footer{
+text-align: left; 
+position:absolute;
+ bottom:0;
+
+}
+footer{
+text-align:left;
+}
+
+
+

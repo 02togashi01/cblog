@@ -26,7 +26,7 @@ public class DeleteController {
 	@RequestMapping(value="/userDelete",method=RequestMethod.GET)
 	public String select (@ModelAttribute("command") Form form, Model model) {
 
-		session.setAttribute("id",form.getId());
+		session.setAttribute("id",form.getUser_id());
 		session.setAttribute("user_name",form.getName());
 		session.setAttribute("pass",form.getPass());		//確認画面で使うからセッションいれるよ
 
@@ -49,9 +49,9 @@ public class DeleteController {
 	@RequestMapping(value="/deleteConfirm",method=RequestMethod.POST)
 	public String delete1 (@ModelAttribute("command") Form form, Model model) {	//管理人からの削除画面
 
-		String id=form.getId();
+		String id=form.getUser_id();
 		String pass=form.getPass();
-		if((form.getId()==null ||form.getPass()==null) || "".equals(form.getId())||"".equals(form.getPass())) {
+		if((form.getUser_id()==null ||form.getPass()==null) || "".equals(form.getUser_id())||"".equals(form.getPass())) {
 			model.addAttribute("msg", "必須項目が未入力です！！");
 			return "deleteInput";
 		}

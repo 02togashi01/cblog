@@ -1,0 +1,62 @@
+body {
+  width:auto;
+  min-width: 600px;      /* 2x LC width + RC width */
+    /* 画像ファイルの指定 */
+  background-image: url(img/top.jpg);
+   
+  /* 画像を常に天地左右の中央に配置 */
+  background-position: center center;
+   
+  /* 画像をタイル状に繰り返し表示しない */
+  background-repeat: no-repeat;
+   
+  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+  background-attachment: fixed;
+   
+  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+  background-size: cover;
+   
+  /* 背景画像が読み込まれる前に表示される背景のカラー */
+  background-color: #464646;
+}
+.button{
+margin-top : 15px;
+margin-bottom : 15px;
+ display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+#header{
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+background-color:#FFFFFF;
+background-color: rgba(0,0,0,0.15);
+
+  height:250px;
+  margin:0px 0px;
+  padding:0px;
+}
+
+#footer {
+background-color:#dedcee;
+background-color: rgba(0,0,0,0.15);
+
+  height:250px;
+  margin:0px 10px;
+}
+#pageButton {
+    width:70px;
+    height:auto;
+    font-size:15px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+    color:#333;
+    border:1px solid #333;
+}

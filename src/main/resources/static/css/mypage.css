@@ -1,0 +1,367 @@
+.userbody {
+
+ text-align: center;
+ background-image: url("img/aii.png")
+}
+
+.articleupleft{
+background-color: #FFFFFF;
+  width: 600px;
+  height: auto;
+  border: solid 1px #DDA0DD;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px #c0c0c0;
+  margin-right: auto;
+  margin-left : auto;
+  margin-top : 100px;
+  }
+
+.articleupright{
+background-color: #FFFFFF;
+  width: 600px;
+  height: auto;
+  border: solid 1px #DDA0DD;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px #c0c0c0;
+  margin-right: auto;
+  margin-left : auto;
+
+  }
+.arrow{
+margin-top : 10px;
+margin-bottom : 10px;
+font-size:150%;
+color:red;
+}
+
+table,td,th{
+border: solid 3px black ;
+
+}
+
+th.button{
+width: 400px;
+height: 30px;
+}
+
+td.button{
+width: 400px;
+height: 30px;
+}
+table{
+border-collapse: collapse;
+margin: auto;
+table-layout: fixed;
+}
+
+th,td{
+padding:10px 20px 10px 20px
+}
+th {
+background-color: #E6E6FA;
+}
+
+.mypagebutton{
+margin-top : 15px;
+margin-bottom : 15px;
+height: 33px;
+width: 80px;
+ display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+}
+
+.mypagebutton:hover {
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+.mypagebuttonl{
+margin-top : 15px;
+margin-bottom : 15px;
+height: 33px;
+width: 180px;
+ display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+}
+
+.mypagebuttonl:hover {
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+.mypagebutton1{
+margin-top : 15px;
+margin-bottom : 15px;
+height: 33px;
+width: 130px;
+ display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+}
+
+.mypagebutton1:hover {
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+button.html{
+width: auto;
+}
+.userspan{
+display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+
+.adminspan2{
+display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+
+.userspan2{
+display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+.userspan3{
+display: inline-block;
+    width: 180px;
+    text-align: right;
+}
+
+button.html{
+width: auto;
+}
+
+p.mypagebuttonmargin{
+text-align: right;
+}
+
+table td .mypagebutton{
+margin-left : 10px;
+margin-right : 10px;
+height: 33px;
+ display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+}
+
+table td .mypagebutton:hover {
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+.link{
+}
+
+
+.mypagebuttoncollect{
+margin-top : 15px;
+margin-bottom : 15px;
+height: 50px;
+width: 300px;
+font-size: 22px;
+ display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+}
+
+.mypagebuttoncollect:hover {
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+.article {
+
+    background-color: #FFFFFF;
+  width: auto;
+  max-width :700px;
+  height: auto;
+  border: solid 1px #DDA0DD;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px #c0c0c0;
+  margin-right: auto;
+  margin-left : auto;
+  margin-top : 100px;
+  
+}
+
+.article_main{
+
+    background-color: #FFFFFF;
+  width: 900px;
+  height: auto;
+  border: solid 1px #DDA0DD;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px #c0c0c0;
+  margin-right: auto;
+  margin-left : auto;
+  margin-top : 50px;
+　margin-bottom: 10px;
+  
+}
+
+
+fieldset{
+margin: auto;
+margin-bottom: 20px;
+width: 200px;
+border-radius: 10px;
+text-align: center;
+}
+
+fieldset.htmltag{
+width: auto;
+}
+
+
+}
+th{
+background-color:white
+}
+td{
+background-color:white
+}
+
+
+html, body{
+    margin: 0;         /* 余白の削除 */
+    padding: 0;        /* 余白の削除 */
+    width:100%;
+
+}
+
+div#header-fixed
+{
+    position: fixed;            /* ヘッダーの固定 */
+    top: 0px;                   /* 位置(上0px) */
+    left: 0px;                  /* 位置(右0px) */
+        width:100%;
+
+    height: 30px;              /* 縦幅140px */
+}
+ 
+ 
+div#header-bk { 
+	background-color:#296;     /* 背景色() */
+	padding:10px 0 20px;       /* 上10px、下20pxをあける */
+	height:20px;              /* 縦の高さ110px */
+	width:100%;                /* 横の幅を100% */
+	
+	
+}
+ 
+ 
+div#header { 
+	border: 5px solid #fff;    /* 表示領域を白枠で囲う */
+	background-color:#fff;
+	height: 100%;              /* 縦の表示領域はheader-bkと同じ */
+	width: 100%;              /* 横の幅970px */
+}
+
+
+/* ボディの定義 */
+
+div#body-bk{
+    padding:70px 0 70px 0;    /* 上下に160pxを余白を取る */
+}
+div #name-bk{
+
+}
+div #color-box{
+
+
+}
+div #name{
+	 padding:0px 0px 0px 5px;
+  		border-top:  4px solid #296;
+		border-right: 1px dotted  #296;
+		border-bottom: 1px dotted #296;
+		border-left: 15px solid #296;
+}
+
+
+div #button-bk{
+    padding :10px;
+    float: left;
+
+
+
+}
+div #button{
+
+        box-shadow:4px 4px #3CD693;
+}
+ 
+div#footer-fixed{
+}
+ 
+ 
+div#footer-bk { 
+	
+}
+ 
+ 
+div#footer { 
+	clear: left;
+	
+	bottom: 0px;
+
+}
+
+.tablearticle {
+
+    background-color: #FFFFFF;
+  width: 800px;
+  height: auto;
+  border: solid 1px #DDA0DD;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px #c0c0c0;
+  margin-right: auto;
+  margin-left : auto;
+  margin-top : 100px;
+  
+}
+
+.admintext{
+margin-right : 20px;
+}
+
+
+footer.footer{
+text-align: left; 
+position:absolute;
+     bottom:0;
+
+}
+footer{
+text-align:left;
+}

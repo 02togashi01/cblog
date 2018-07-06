@@ -1,0 +1,82 @@
+.body{
+  background:#f8f8f8;
+}
+
+.background{
+  padding:50px;
+  background-color:#f8f8f8;
+}
+
+p {
+  margin:0;
+}
+
+.card{
+  display:inline-block;
+  background-color:#fff;
+  margin:20px 10px;
+  padding-bottom:10px;
+  border-radius:5px;
+    -moz-box-shadow:0 2px 2px 0 rgba(0,0,0,0.2);
+    -webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,0.2);
+  box-shadow:0 2px 2px 0 rgba(0,0,0,0.2);
+}
+
+.image-box,
+.title-box,
+.desc-box,
+.card{
+  width:250px;
+}
+
+.image-box{
+  border-radius:5px 5px 0 0;
+  background-color:#f8f8f8;
+  margin-bottom:-6px;
+  height:120px;
+  background:url("https://placehold.jp/250x120.png") center center /cover no-repeat;
+}
+.image-box1{
+  border-radius:5px 5px 0 0;
+  background-color:#f8f8f8;
+  margin-bottom:-6px;
+  height:120px;
+  background:url("img/ryouri2.jpg") center center /cover no-repeat;
+}
+.image-box2{
+  border-radius:5px 5px 0 0;
+  background-color:#f8f8f8;
+  margin-bottom:-6px;
+  height:120px;
+  background:url("img/ryouri3.jpg") center center /cover no-repeat;
+}
+.image-box3{
+  border-radius:5px 5px 0 0;
+  background-color:#f8f8f8;
+  margin-bottom:-6px;
+  height:120px;
+  background:url("img/macaron.jpg") center center /cover no-repeat;
+}
+
+.title-box{
+  margin:0 auto;
+  padding-left:5px;
+  font-size:18px;
+  padding:20px 10px 10px;
+}
+
+.line{
+  height:1px;
+  background:#e8e8e8;
+  margin-bottom:10px;
+}
+
+.desc-box{
+  padding:0 10px 10px;
+  color:#666666;
+  font-size:12px
+}
+
+.title,.desc{
+  width:230px
+}

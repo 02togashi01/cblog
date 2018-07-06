@@ -1,0 +1,204 @@
+﻿body {
+  width:auto;
+  min-width: 600px;      /* 2x LC width + RC width */
+  height:auto;
+}
+
+
+#header{
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+    background-image: url("img/cook_top.jpg");
+	background-size:cover;
+    background-position: left top;
+    background-repeat: no-repeat;;
+  height:250px;
+  margin:0px 10px;
+}
+#container {
+
+  padding-left: 250px;   /* LC width */
+  padding-right: 340px;  /* RC width */
+
+
+}
+#container .column {
+  position: relative;
+  float: left;
+}
+#center {
+  width: 100%;
+  height:auto;
+  
+}
+#content{
+	
+	  margin-left:auto;
+  margin-right:auto;
+  padding :20px 20px;
+	
+}
+#left {
+  width: 240px;          /* LC width */
+  right: 250px;          /* LC width */
+    margin:0px 0px 0px 0px ;
+    padding:10px;
+  margin-left: -100%;
+  height:auto;
+
+}
+#right {
+  width: 320px;          /* RC width */
+      margin:0px 0px 0px 0px ;
+      padding:10px;
+  margin-right: -340px;  /* RC width */
+height:auto;
+}
+#page {
+  width:100%;
+
+}
+#footer {
+  margin:10px;
+  clear: both;
+  width:100%;
+}
+#pageButton {
+    width:70px;
+    height:auto;
+    font-size:15px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+    color:#333;
+    border:1px solid #333;
+}
+.square_btn{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ECECEC;
+    transition: .4s;
+  }
+
+.square_btn:hover {
+    background: #00bcd4;
+    color: white;
+}
+.red_square{
+   width: 40px;
+   height: 40px;
+   background: red;
+	padding:2px 4px 7px 4px;
+}
+
+button.red_square {
+    
+    height: 20px;
+ width: 20px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #ff0000;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    	padding:2px 4px 7px 4px;
+}
+
+button.blue_square {
+    
+    height: 20px;
+ width: 20px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #4682B4;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    	padding:2px 4px 7px 4px;
+}
+
+button.green_square {
+    
+    height: 20px;
+ width: 20px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #7FFF00;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    	padding:2px 4px 7px 4px;
+}
+
+button.yellow_square {
+    
+    height: 20px;
+ width: 20px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #FFFF00;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    	padding:2px 4px 7px 4px;
+}
+
+button.orange_square {
+    
+    height: 20px;
+ width: 20px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #FF8C00;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    	padding:2px 4px 7px 4px;
+}
+
+button.purple_square {
+    
+    height: 20px;
+ width: 20px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #BA55D3;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    	padding:2px 4px 7px 4px;
+}
+
+button.lightblue_square {
+    
+    height: 20px;
+ width: 20px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #87CEEB;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    	padding:2px 4px 7px 4px;
+    
+}

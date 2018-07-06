@@ -1,0 +1,34 @@
+.button {
+	position: relative;
+	z-index: 2;
+	font-size:12px;
+	background-color: #333;
+	border: 1px solid #333;
+	color: #fff;
+	line-height: 20px;
+	line-width:25px;
+	margin: 0px;
+}
+.button:hover {
+	background-color: #fff;
+	border-color: #59b1eb;
+	color: #59b1eb;
+}
+.button::before,
+.buttonn::after {
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #333;
+}
+.button::before {
+	right: 0;
+}
+.button::after {
+	left: 0;
+}
+.button:hover::before,
+.button:hover::after {
+	width: 0;
+	background-color: #59b1eb;
+}

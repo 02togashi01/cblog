@@ -16,7 +16,7 @@
 	rel="stylesheet">
 
 <!-- Custom fonts for this template -->
-<link href="vendor/font-awesome/css/font-awesome.min.css"
+<link href="clean/vendor/font-awesome/css/font-awesome.min.css"
 	rel="stylesheet" type="text/css">
 <link
 	href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic'
@@ -52,7 +52,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-10 mx-auto">
-				<div class="post-preview">
+
+								<div class="post-preview">
+
+
 					<a href="articleList">
 						<h2 class="post-title">記事一覧</h2>
 					</a>
@@ -91,7 +94,7 @@
 
 				<hr>
 				<div class="post-preview">
-					<a href="headerImput">
+					<a href="headerInput">
 						<h2 class="post-title">ヘッダー文字変更</h2>
 					</a>
 					<p class="post-meta">ヘッダーの文字を変更できます。</p>
@@ -99,7 +102,7 @@
 
 				<hr>
 				<div class="post-preview">
-					<a href="deleteUser">
+					<a href="deleteuser">
 						<h2 class="post-title">アカウント管理</h2>
 					</a>
 					<p class="post-meta">アカウント情報の変更を行います。</p>

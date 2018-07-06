@@ -24,7 +24,7 @@
 
 				<c:if test="${not empty msg}">
 					<div class="message">
-						<p class="required">${msg}</p>
+						<p class="required" style = color:red >${msg}</p>
 					</div>
 				</c:if>
 

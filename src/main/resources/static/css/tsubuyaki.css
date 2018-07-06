@@ -1,0 +1,158 @@
+body{
+text-align: center;
+ background-color: #67EEB3;
+}
+
+
+
+.button{
+ display: inline-block;
+ width:80px;
+ height:33px;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    
+}
+.deleteResultTsubuyakiButton{
+ display: inline-block;
+ width:300px;
+ height:33px;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    
+}
+.editResultTsubuyakiButton{
+ display: inline-block;
+ width:300px;
+ height:33px;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    
+}
+.article {
+
+    background-color: #FFFFFF;
+  width: 400px;
+  height: auto;
+  border: solid 1px #DDA0DD;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px #c0c0c0;
+  margin-right: auto;
+  margin-left : auto;
+  margin-top : 100px;
+  
+}
+.article1 {
+
+    background-color: #FFFFFF;
+  width: 900px;
+  height: auto;
+  border: solid 1px #DDA0DD;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px #c0c0c0;
+  margin-right: auto;
+  margin-left : auto;
+  margin-top : 100px;
+  
+}
+
+.mypagebuttonl{
+margin-top : 15px;
+margin-bottom : 15px;
+height: 33px;
+width: 160px;
+ display: inline-block;
+    padding: 7px 20px;
+	border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+}
+
+.mypagebuttonl:hover {
+    background-image: -webkit-linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+
+table,td,th{
+border: solid 3px black ;
+
+}
+table{
+
+border-collapse: collapse;
+margin-left:20px;
+margin-right:20px
+
+}
+.table tr:nth-child(even) td {  
+  background-color: #fbeefc;  
+}
+
+th,td{
+padding:10px 20px 10px 20px
+
+
+}
+th{
+background-color:white
+}
+td{
+background-color:white
+}
+
+th.th1{
+width:70px;
+
+}
+th.th2{
+width:700px;
+}
+
+
+
+caption{
+font-weight:bold;
+font-size:30px;
+ background-color: #fbeefc;
+   
+
+    
+    padding: 15px;
+
+
+
+}
+input.date{
+width: 300px;
+}
+
+  
+  textarea.tsubuyaki {
+width: 300px;
+height: 30px;
+}
+footer.footer{
+text-align: left; 
+position:absolute;
+     bottom:0;
+
+}
+footer{
+text-align:left;
+}

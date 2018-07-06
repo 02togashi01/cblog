@@ -1,0 +1,39 @@
+body {
+ text-align:center;
+}
+
+#container {
+ width:1200px;
+ margin-left:auto;
+ margin-right:auto;
+ text-align:left;
+ background-color:#A9A9A9;
+}
+#wrapper {
+ width:900px;
+ float:left;
+background-color:#D3D3D3;
+}
+
+#boxD {
+ width:300px;
+ float:left;
+ background-color: #93FFAB;
+}
+
+#boxE {
+ width:100%;
+ clear:left;
+ background-color: #E4FF8D;
+}
+#boxB {
+ width:650px;
+ float:right;
+ background-color: #C2EEFF;
+}
+
+#boxC {
+ width:250px;
+ float:right;
+background-color: #FF82B2;
+}

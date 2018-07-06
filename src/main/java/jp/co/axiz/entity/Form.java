@@ -2,23 +2,67 @@ package jp.co.axiz.entity;
 
 public class Form {
 
-
+	private String header;
+	public String getHeader() {
+		return header;
+	}
+	public void setHeader(String header) {
+		this.header = header;
+	}
+	public String getSubHeader() {
+		return subHeader;
+	}
+	public void setSubHeader(String subHeader) {
+		this.subHeader = subHeader;
+	}
+	private String subHeader;
 	private String name;
 	private String user_id;
 	private String pass;
+	private Integer role;
 
 	private String reRegisterpass;
-
-	private String newName;
-	private String newUserId;
-	private String newPass;
 
 	private String registerid;
 	private String registername;
 	private String registerpass;
 
+	private String rePass;
+	private String newName;
+	private String newId;
+	private String newPass;
 
+	public Integer getRole() {
+		return role;
+	}
+	public void setRole(Integer role) {
+		this.role = role;
+	}
 
+	public String getRePass() {
+		return rePass;
+	}
+	public void setRePass(String rePass) {
+		this.rePass = rePass;
+	}
+	public String getNewName() {
+		return newName;
+	}
+	public void setNewName(String newName) {
+		this.newName = newName;
+	}
+	public String getNewId() {
+		return newId;
+	}
+	public void setNewId(String newId) {
+		this.newId = newId;
+	}
+	public String getNewPass() {
+		return newPass;
+	}
+	public void setNewPass(String newPass) {
+		this.newPass = newPass;
+	}
 	public String getRegisterid() {
 		return registerid;
 	}
@@ -37,24 +81,6 @@ public class Form {
 	public void setRegisterpass(String registerpass) {
 		this.registerpass = registerpass;
 	}
-	public String getNewName() {
-		return newName;
-	}
-	public void setNewName(String newName) {
-		this.newName = newName;
-	}
-	public String getNewId() {
-		return newUserId;
-	}
-	public void setNewId(String newId) {
-		this.newUserId = newId;
-	}
-	public String getNewPass() {
-		return newPass;
-	}
-	public void setNewPass(String newPass) {
-		this.newPass = newPass;
-	}
 	public String getreRegisterpass() {
 		return reRegisterpass;
 	}
@@ -67,11 +93,18 @@ public class Form {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getId() {
+
+	public String getUser_id() {
 		return user_id;
 	}
-	public void setId(String id) {
-		this.user_id = id;
+	public void setUser_id(String user_id) {
+		this.user_id = user_id;
+	}
+	public String getReRegisterpass() {
+		return reRegisterpass;
+	}
+	public void setReRegisterpass(String reRegisterpass) {
+		this.reRegisterpass = reRegisterpass;
 	}
 	public String getPass() {
 		return pass;

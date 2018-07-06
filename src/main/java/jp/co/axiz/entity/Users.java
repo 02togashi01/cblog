@@ -7,13 +7,16 @@ public class Users {
 	private String name;
 	private Integer role;		//1なら管理者、2なら一般ユーザ
 
+	public Users() {
+	}
 
-
-	public Users(String user_id,String pass,String name) {
+	public Users(String user_id,String pass,String name,Integer role) {
 		this.user_id = user_id;
 		this.pass=pass;
 		this.name=name;
+		this.role=role;
 	}
+
 	public String getUser_id() {
 		return user_id;
 	}

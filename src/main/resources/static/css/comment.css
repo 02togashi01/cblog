@@ -1,0 +1,19 @@
+/* css */
+.comment {
+background-color:#ccc;
+border-radius:5px;
+position:relative;
+padding:10px;
+}
+ 
+.comment:after {
+border:10px solid transparent;
+border-bottom-color:#ccc;
+border-top-width:0;
+top:-10px;
+content:"";
+display:block;
+left:30px;
+position:absolute;
+width:0;
+}
